@@ -1,0 +1,75 @@
+{
+    "title": "Demo Feed",
+    "items": [
+        {
+            "id": "1",
+            "date_published": "2020-10-27T00:00:00+11:00",
+            "date_modified": "2020-10-27T00:00:00+11:00",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/JSON_vector_logo.svg/320px-JSON_vector_logo.svg.png",
+            "title": "Wikipedia",
+            "content_text": "JavaScript Object Notation is an open standard file format, and data interchange format, that uses human-readable text to store and transmit data objects consisting of attribute–value pairs and array data types (or any other serializable value). It is a very common data format, with a diverse range of applications, such as serving as a replacement for XML in AJAX systems.\n\nSource: Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/JSON",
+            "tags": [
+                "json",
+                "wikipedia"
+            ],
+            "_meta": {
+                "audioCount": 0,
+                "videoCount": 0,
+                "imageCount": 0,
+                "featured": true
+            }
+        },
+        {
+            "id": "2",
+            "date_published": "2020-10-26T00:00:00+11:00",
+            "date_modified": "2020-10-26T00:00:00+11:00",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/JSON_vector_logo.svg/320px-JSON_vector_logo.svg.png",
+            "title": "JSON Feed",
+            "content_text": "We — Manton Reece and Brent Simmons — have noticed that JSON has become the developers’ choice for APIs, and that developers will often go out of their way to avoid XML. JSON is simpler to read and write, and it’s less prone to bugs.",
+            "url": "https://jsonfeed.org/",
+            "tags": [
+                "jsonfeed"
+            ],
+            "_meta": {
+                "audioCount": 0,
+                "videoCount": 0,
+                "imageCount": 0,
+                "featured": true
+            }
+        },
+        {
+            "id": "3",
+            "date_published": "2020-10-25T00:00:00+11:00",
+            "date_modified": "2020-10-25T00:00:00+11:00",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/As08-16-2593.jpg/869px-As08-16-2593.jpg",
+            "title": "Image Attachment",
+            "content_text": "This is a timeline of first images of Earth from space. The initial photographs and digital images of planet Earth taken from outer space were preceded by aerial photography and continue in the form of satellite imagery.",
+            "url": "https://en.wikipedia.org/wiki/Timeline_of_first_images_of_Earth_from_space",
+            "attachments": [
+                {
+                    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/As08-16-2593.jpg/869px-As08-16-2593.jpg",
+                    "mime_type": "image/jpg"
+                }
+            ],
+            "tags": [
+                "wikipedia",
+                "earth"
+            ],
+            "_meta": {
+                "audioCount": 0,
+                "videoCount": 0,
+                "imageCount": 1,
+                "featured": true
+            }
+        }
+    ],
+    "version": "https://jsonfeed.org/version/1",
+    "feed_url": "https://jsonfeedviewer.multipolygon.net/demo/favourite.json",
+    "home_page_url": "https://github.com/multipolygon/json-feed-reader-app",
+    "_meta": {
+        "itemCount": 1,
+        "pageNumber": 1,
+        "pageCount": 1
+    }
+}
